@@ -3,3 +3,7 @@
 
 #include "pacmanCloneGameModeBase.h"
 
+void ApacmanCloneGameModeBase::AddScore(int ScoreToGive)
+{
+	Score += ScoreToGive;
+}

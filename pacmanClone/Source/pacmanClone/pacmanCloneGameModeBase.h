@@ -13,5 +13,11 @@ UCLASS()
 class PACMANCLONE_API ApacmanCloneGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	UPROPERTY(EditAnywhere)
+	int Score = 0;
+
+	UFUNCTION()
+	void AddScore(int ScoreToGive);
 };
